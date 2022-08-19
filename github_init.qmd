@@ -3,9 +3,24 @@ title: "Git okositas"
 author: "Eszter"
 format: html
 editor: visual
+execute:
+  eval: false
 ---
 
 # Mappa git-esítése
+
+```{bash}
+git init
+git status
+git add article.txt
+git commit -m "add new file, article.txt"
+git log
+git commit -m "add new dir, new_dir"
+git add .
+git config \--list
+git revert d033fe0f3e413aa59b74a07c546330b869e9afda
+git reset HEAD \--hard
+```
 
 # Git mappa a githubra
 
@@ -27,4 +42,6 @@ megoldja.
 
 Ha ezt **VS code**ból indítom, akkor a webre dob, hogy írjam be a github passwordömet.
 
-# Issuek
+# Issue-k
+
+Lehet nyitni issuet manuálisan a weben az issues fül alatt. Utána, ha megoldjuk, akkor a commit meassage-be írjuk bele: "*Closes #1*" ahol a #után az issue száma van.
