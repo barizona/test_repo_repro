@@ -1,0 +1,28 @@
+---
+title: "Git okositas"
+author: "Eszter"
+format: html
+editor: visual
+---
+
+# Mappa git-esítése
+
+# Git mappa a githubra
+
+A weben: <https://github.com/barizona/> létrehozok egy repot.
+
+Ezt összekötöm a local git repoval (mappával) parancssorból, a mappából:
+
+`git remote add origin https://github.com/barizona/test_repo_repro.git`
+
+ha fatal error, akkor lehet, hogy át kell írni az url-t a config fileban:
+
+`git config --edit`
+
+utána a sima `git push` még lehet, hogy nem fog működni, ekkor a
+
+`git push --set-upstream origin master`
+
+megoldja.
+
+Ha ezt **VS code**ból indítom, akkor a webre dob, hogy írjam be a github passwordömet.
