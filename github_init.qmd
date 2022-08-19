@@ -26,3 +26,5 @@ utána a sima `git push` még lehet, hogy nem fog működni, ekkor a
 megoldja.
 
 Ha ezt **VS code**ból indítom, akkor a webre dob, hogy írjam be a github passwordömet.
+
+# Issuek
