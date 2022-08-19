@@ -45,3 +45,5 @@ Ha ezt **VS code**ból indítom, akkor a webre dob, hogy írjam be a github pass
 # Issue-k
 
 Lehet nyitni issuet manuálisan a weben az issues fül alatt. Utána, ha megoldjuk, akkor a commit meassage-be írjuk bele: "*Closes #1*" ahol a #után az issue száma van.
+
+van uj
