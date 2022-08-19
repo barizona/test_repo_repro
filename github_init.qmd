@@ -42,8 +42,10 @@ megoldja.
 
 Ha ezt **VS code**ból indítom, akkor a webre dob, hogy írjam be a github passwordömet.
 
+## Rstudioban
+
+Ha így összekötöm pl. **VScode**-ban a git mappát a githubbal, akkor utána már működig token probléma nélkül az RStudioban is a githubra feltöltés a *Git* gombbal.
+
 # Issue-k
 
 Lehet nyitni issuet manuálisan a weben az issues fül alatt. Utána, ha megoldjuk, akkor a commit meassage-be írjuk bele: "*Closes #1*" ahol a #után az issue száma van.
-
-van uj
