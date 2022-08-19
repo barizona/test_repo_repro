@@ -9,14 +9,21 @@ execute:
 
 # Mappa git-esítése
 
+Szükséges dolgok:
+
 ```{bash}
 git init
+git add .
+```
+
+Plusz:
+
+```{bash}
 git status
 git add article.txt
 git commit -m "add new file, article.txt"
 git log
 git commit -m "add new dir, new_dir"
-git add .
 git config \--list
 git revert d033fe0f3e413aa59b74a07c546330b869e9afda
 git reset HEAD \--hard
