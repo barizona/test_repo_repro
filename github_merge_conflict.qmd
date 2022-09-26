@@ -6,11 +6,16 @@ editor: visual
 
 ```{sh}
 $ git branch
-* master
+# * master
 $ git branch brunch
 $ git branch
-brunch
-* master
+# brunch
+# * master
+```
+
+```{sh}
+git checkout brunch
+# Switched to branch 'brunch'
 ```
 
 
