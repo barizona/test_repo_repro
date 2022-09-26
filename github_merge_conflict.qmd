@@ -1,0 +1,16 @@
+---
+title: "Gigthub merge conflict"
+format: html
+editor: visual
+---
+
+```{sh}
+$ git branch
+* master
+$ git branch brunch
+$ git branch
+brunch
+* master
+```
+
+
